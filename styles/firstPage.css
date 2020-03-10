@@ -1,0 +1,37 @@
+h1{
+    font-family: 'Baskervville', serif;
+    font-size: 100px;
+
+}
+
+h2{
+   font-family: 'Damion', cursive;
+   font-size: 80px;
+   position: absolute;
+   top: 50%;
+   left: 40%;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    position: absolute;
+    top: 200%;
+    left: 7%;
+ }
+ 
+ hr{
+    border: 2px solid black;
+    position: absolute;
+    left: 20%;
+    top: 85%;
+ }
+
+.header{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+
