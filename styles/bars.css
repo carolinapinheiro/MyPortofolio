@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+ul {
+  list-style: none;
+  margin-left: -30%;
+}
+
+.skills {
+  width: 600px;
+  margin: 60px auto;
+
+}
+
+.skills li {
+  margin: 20px 0;
+}
+
+.bar {
+  margin-top: 10px;
+  display: block;
+  height: 2px;
+  overflow: hidden;
+  /* box-shadow: 0 0 10px #2187eb; */
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+}
+
+.html {
+  width: 90%;
+  animation: html 2s;
+  background-color:  #35B2E6;
+}
+
+.css {
+  width: 95%;
+  animation: css 2s;
+  background-color:  #45D0D0;
+}
+
+.jquery {
+  width: 40%;
+  animation: jquery 2s;
+  background-color: #9BDB85;
+}
+
+.javascript {
+  width: 45%;
+  animation: javascript 2s;
+  background-color: #F8E84E;
+}
+
+.angular {
+    width: 60%;
+    animation: angular 2s;
+    background-color: #E39677;
+}
+
+.php {
+    width: 30%;
+    animation: php 2s;
+    background-color:  #D26E85;
+  }
+
+@keyframes html {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes jquery {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+
+@keyframes javascript {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+
+@keyframes angular {
+    0% {
+      width: 0%
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  
+
+  @keyframes php {
+    0% {
+      width: 0%
+    }
+    100% {
+      width: 30%;
+    }
+  }
+  

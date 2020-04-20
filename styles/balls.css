@@ -1,3 +1,5 @@
+
+
 .demo {
     margin: 5px 0 0 5px;
     width: 1150px;
@@ -147,21 +149,6 @@
   }
 
 
-
-    
-  .float-balls .small i:nth-child(11) {
-        width: 30px;
-        height: 30px;
-        top: 10%;
-        left: 10%;
-        border: 6px solid pink;
-        background-color:pink;
-        -webkit-animation: "down" 5s ease-in-out infinite;
-                animation: "down" 5s ease-in-out infinite;
-        -webkit-animation-delay: 0.8s;
-                animation-delay: 0.8s;
-      }
-    
 
   @-webkit-keyframes up {
     0% {

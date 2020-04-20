@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="shortcut icon" type="image/x-icon" href="images/pin3.png" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Carolina Pinheiro</title>
-    <link rel="icon" type="image/png" href="imagens/pin3.png" />
-
+    <!-- ICONS ------------------------------------------------------------>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- BOOTSTRAP & FONTS --------------------------------------------- -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Baskervville|Damion|Roboto&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
-
-    <link rel="stylesheet" href="styles/firstPage.css">
+    <!-- CSS LINKS --------------------------------------------------------->
+    <link rel="stylesheet" href="styles/first.css">
     <link rel="stylesheet" href="styles/balls.css">
-
+    <link rel="stylesheet" href="styles/timeline.css">
+    <link rel="stylesheet" href="styles/bars.css">
+    <link rel="stylesheet" href="styles/circularSkills.css">
 </head>
+
 <body>
-    <div class="header">
+  <!-- HEADER -------------------------------------------------------------- -->
+    <div class="header">  <!-- div header -->
         <h1>Carolina</h1>
         <hr width="30%"><h2>Pinheiro</h2>
 
         <h3>Web Designer/Developer</h3>
-        <!-- <div class="redes">
-         <i class="fa fa-instagram" style="font-size:36px"></i>
-         <i class="fa fa-facebook-square" style="font-size:36px"></i>
-        </div> -->
-    </div>
+    </div> <!-- div header -->
 
-    <script>
-        window.console = window.console || function(t) {};
-      </script>
-      <script>
-        if (document.location.search.match(/type=embed/gi)) {
-          window.parent.postMessage("resize", "*");
-        }
-      </script>
-      </head>
-      <body translate="no">
-      <div class="demo">
-      <div class="float-balls">
+     
 
-      <div class="small">
+  <!-- BALLS ------------------------------------------ -->    
+  <div class="demo"> <!-- div demo -->
+    <div class="float-balls"> <!-- div float-balls -->
+      <div class="small"> <!-- div small -->
         <i></i>
         <i></i>
         <i></i>
@@ -54,12 +45,170 @@
         <i></i>
         <i></i>
         <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-      </div>
-      </div>   
+      </div> <!-- div small -->
+    </div> <!-- div float-balls -->
+  </div>  <!-- div demo -->
+
+<!-- ABOUT ME ------------------------------------------------------------ -->
+  <div class="about-me"> <!-- div about me -->
+    <img src="images/me.jpg">
+      <div class="container"> <!-- div container -->
+        <div class="work-ex"> <!-- div work-ex -->
+          <i class='fas fa-briefcase' style='font-size:48px;color:#5078A6'></i>
+          <h4>WORK EXPERIENCE</h4>
+          <ul class="timeline">
+            <li class="event"> <!-- data-date="2018-Present"-->
+              <p>
+                <b>2018-2020</b>
+                <br><br>
+                Freelancer na empresa SRI,lda.
+                <br><br>
+                <b>Funções:</b>
+                <br>
+                Criação de Website
+                <br>
+                Gerir redes sociais
+                <br>
+                Gerir Loja online
+                <br>
+                Criação de Newsletter
+              </p>
+            </li>
+          </ul>
+
+
+        </div> <!-- fim div work-ex -->
+        <div class="education"> <!-- div education -->
+          <i class='fas fa-graduation-cap' style='font-size:48px;color:#5078A6'></i>
+
+          <h4>EDUCATION</h4>
+          <!-- TIME LINE EDUCATION -->
+          <ul class="timeline">
+            <li class="event" > <!--data-date="2015-2018"-->
+              <p> 
+                <b>2015-2018</b>
+                <br><br>
+                Curso Técnico de Gestão e Programação de Sistemas Informáticos na Escola Secundária D.Pedro V
+              </p>
+            </li>
+            <li class="event"> <!-- data-date="2019-2020"-->
+              <p>
+                <b>2019-2020</b>
+                <br><br>
+                Curso FullStack Web Developer na Flag no Saldanha
+              </p>
+            </li>
+          </ul>
+          <!-- FIM TIME LINE EDUCATION -->
+
+        </div> <!--fim div education -->
+        <br><br>
+        <div class="skills"><!-- div skills -->
+          <i class='fas fa-code' style='font-size:48px;color:#5078A6'></i>
+          <h4>SKILLS</h4>
+          <ul style="list-style: none;">
+            <li>HTML5 <span class="bar"><span class="html"></span></span></li>
+            <li>CSS3 & SASS <span class="bar"><span class="css"></span></span></li>
+            <li>JavaScript <span class="bar"><span class="javascript"></span></span></li>
+            <li>JQuery <span class="bar"><span class="jquery"></span></span></li>
+            <li>AngularTS <span class="bar"><span class="angular"></span></span></li>
+            <li>PHP <span class="bar"><span class="php"></span></span></li>
+          </ul>
+          </div> <!-- fim div skills -->
+            <div class="software-skills"> <!-- div software-skills -->
+              <i class='fas fa-list' style='font-size:48px;color:#5078A6'></i>
+              <h4>SOFTWARE SKILLS</h4>
+
+            
+            
+                  <svg viewBox="0 0 36 36" class="circular-chart orange">
+                    <path class="circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <path class="circle"
+                      stroke-dasharray="30, 100"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <text x="18" y="20.35" class="percentage">30%</text>
+                  </svg>
+                  <p style="margin-left: 56%;"><b>Atom</b></p>
+                </div>
+                
+                <div class="single-chart">
+                  <svg viewBox="0 0 36 36" class="circular-chart green">
+                    <path class="circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <path class="circle"
+                      stroke-dasharray="60, 100"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <text x="18" y="20.35" class="percentage">60%</text>
+                  </svg>
+                  <p style="margin-left: 33%;"><b>Sublime Text</b></p>
+                </div>
+              
+                <div class="single-chart">
+                  <svg viewBox="0 0 36 36" class="circular-chart blue">
+                    <path class="circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <path class="circle"
+                      stroke-dasharray="90, 100"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <text x="18" y="20.35" class="percentage">90%</text>
+                  </svg>
+                  <p style="margin-left: 30%;"><b>Visual Studio Code</b></p>
+                  
+            
+              
+
+            </div> <!-- div software-skills -->
+              <br><br>
+            <div class="projectos"> <!-- div projectos -->
+              <i class='far fa-star' style='font-size:48px;color:#5078A6'></i>
+              <h4>PROJECTS</h4>
+              <!-- <div class="images">
+                <img src="images/logopreto.png">
+                <img src="images/logo.jpg">
+              </div> -->
+            </div> <!-- div interests -->
+
+            <div class="interests"> <!-- div interests -->
+              <i class='far fa-star' style='font-size:48px;color:#5078A6'></i>
+              <h4>INTERESTS</h4>
+            </div> <!-- div interests -->
+            <div class="icons">
+              <i class='fas fa-music icon' style='font-size:48px;color:#D26E85'>
+                <p>Musica</p></i>
+              <i class="fa fa-film icon" style="font-size:48px;color:#E39677">
+                <p style="margin-left: -15px;">Cinema</p></i>
+              <i class="fa fa-camera icon" style="font-size:48px;color:#F8E84E">
+                <p style="margin-left: -18px;">Fotografia</p></i>
+              <i class="fa fa-car icon" style="font-size:48px;color:#9BDB85">
+                <p style="margin-left: -15px;">Conduzir</p></i>
+              <i class='fas fa-running icon' style='font-size:48px;color:#45D0D0'> 
+                <p>Correr</p></i>
+            </div>
+        </div> <!-- div container -->
+     </div> <!-- div about me -->
+
+
+  <footer>
+
+  </footer>
 </body>
 </html>

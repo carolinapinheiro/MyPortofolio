@@ -1,0 +1,118 @@
+/*-- HEADER --------------------------------------------------------------*/
+h1{
+    font-family: 'Baskervville', serif;
+    font-size: 100px;
+
+}
+
+h2{
+   font-family: 'Damion', cursive;
+   font-size: 80px;
+   position: absolute;
+   top: 50%;
+   left: 40%;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    position: absolute;
+    top: 200%;
+    left: 7%;
+ }
+ 
+ hr{
+    border: 2px solid #202020;
+    position: absolute;
+    left: 20%;
+    top: 85%;
+ }
+
+.header{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+
+/*ABOUT ME ------------------------------------------------------------*/
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.work-ex{
+    position: absolute;
+    top: 120%;
+    left: 45% ;
+}
+
+.education{
+    position: absolute;
+    top: 120%;
+    left: 75%;
+}
+
+.skills{
+    position: absolute;
+    top: 180%;
+    left: 53%;
+}
+
+.software-skills{
+    position: absolute;
+    top: 260%;
+    left: 45%;
+}
+
+.projectos{
+    position: absolute;
+    top: 340%;
+    left: 45%;
+}
+
+.interests{
+    position: absolute;
+    top: 380%;
+    left: 45%;
+}
+
+.icon{
+padding: 0px 30px;
+}
+
+.icons{
+    position: absolute;
+    top: 395%;
+    left: 33%;
+    
+}
+.icons p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45%;
+    color: black;
+    margin-left: -10%;
+}
+
+.images{
+    position: absolute;
+    top: 150%;
+    left: 10%;
+    padding: 10px 10px;
+
+}
+
+.images img {
+
+    padding: 10px 10px;
+
+}
